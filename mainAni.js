@@ -786,7 +786,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "outputgps.splatv",
+        params.get("url") || "outputlength100combine.splatv",
         "https://huggingface.co/datasets/jameslam/v-splate/resolve/main/",
     );
     const req = await fetch(url, {
