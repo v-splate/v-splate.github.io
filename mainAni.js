@@ -786,8 +786,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "outputTrellisGS.splatv",
-        "https://huggingface.co/datasets/jameslam/v-splate/resolve/main/",
+        params.get("url") || "https://hkustconnect-my.sharepoint.com/personal/kylambd_connect_ust_hk/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fkylambd%5Fconnect%5Fust%5Fhk%2FDocuments%2Fvsplat%2Fcam040709combine%5F30frame%2Evsplat?download=1",
     );
     const req = await fetch(url, {
         mode: "cors", // no-cors, *cors, same-origin
